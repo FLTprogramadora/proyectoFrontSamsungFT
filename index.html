@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario samsung</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="cajaFormulario">
+    <form action=" " method="post" id="f1" >
+       <fieldset>
+        <h1>Create Account</h1><br>
+        <label><h2>Nombre</h2>
+            <input type="text" name="nombre" id="nombre" value="" required minlength="2" maxlength="15" required/>
+        </label><br>
+        <label><h2>Email</h2> 
+            <input type="email" name="correo"  id="correo" value="" pattern="[A-Za-z0-9]+ \@ mail.com" required/>
+        </label><br>
+        <label><h2>Clave</h2>
+            <input type="password" name="clave" id="clave" minlenght="2" maxlength="8"  required/>
+        </label><br>
+        <label><h2>Confirme su clave</h2>
+            <input type="password" name="claveConfirmacion" id="claveConfirmacion" minlenght="2" maxlength="8" required/>
+        </label><br>
+        <p>
+        <input type="submit" value="ENVIAR" class=botonEnviar onclick="validarClaves()" /> </button> </p>
+        <br>
+    </fieldset>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

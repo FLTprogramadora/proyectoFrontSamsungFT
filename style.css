@@ -1,0 +1,65 @@
+@font-face { 
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    src: url('fonts/Poppins-Regular.ttf');
+    font-style: normal;
+   }
+
+body{
+    background-color: black;
+}
+
+fieldset{
+    border: none;
+}
+
+.cajaFormulario{
+    background-color: rgb(58, 55, 78);
+    border-color: rgb(152, 152, 152);
+    border-radius: 2%;
+    position: absolute;
+    padding: 2%;
+    align-self: center;
+    margin-left: 35%;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(198, 189, 215);
+
+}
+
+h2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(157, 155, 159);
+   
+}
+
+.botonEnviar{
+    border-color: rgb(4, 0, 75);
+    background-color: rgba(50, 19, 177, 0.856);
+    align-self: center;
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    border:0px;
+    width: 150px;
+    height:30px;
+}
+
+label{
+    width: 150px;
+    height:30px; 
+}
+
+input:invalid {
+    border: 2px solid red;
+  }
+  
+input:valid {
+    border: 2px solid green;
+  }
